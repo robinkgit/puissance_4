@@ -1,0 +1,65 @@
+#plateau{
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #1f90ff;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.title_div{
+    display: flex;
+    justify-content: center;
+    background-color: #1f90ff;
+    height: 6rem;
+}
+.title{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Jersey 10", sans-serif;
+}
+body{
+    margin-top: 0;
+}
+*{
+    margin: 0;
+}
+#turn{
+    display: flex;
+    position: relative;
+    bottom: 30rem;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+#div_button{
+    display: flex;
+    justify-content: center;
+}
+#button{
+    padding: 0.5rem;
+    border-radius: 30px;
+    margin-right: 10rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+#button_restart{
+    padding: 0.5rem;
+    border-radius: 30px;
+    width: 146px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#div_compteur{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+#compteur_p1{
+    margin-right: 6rem;
+}
+#button_reset_compteur{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-family: "Josefin Sans", sans-serif;
+}
